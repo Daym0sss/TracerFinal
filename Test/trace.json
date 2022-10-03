@@ -1,0 +1,21 @@
+[
+  {
+    "ThreadId": 1,
+    "EllapsedTime": 1,
+    "Methods": [
+      {
+        "ClassName": "Foo",
+        "MethodName": "MyMethod",
+        "EllapsedTime": 0,
+        "Methods": [
+          {
+            "ClassName": "Bar",
+            "MethodName": "InnerMethod",
+            "EllapsedTime": 0,
+            "Methods": []
+          }
+        ]
+      }
+    ]
+  }
+]

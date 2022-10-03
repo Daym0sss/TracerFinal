@@ -1,0 +1,21 @@
+<ArrayOfThreadDataView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ThreadDataView>
+    <ThreadId>1</ThreadId>
+    <EllapsedTime>1</EllapsedTime>
+    <Methods>
+      <MethodDataView>
+        <ClassName>Foo</ClassName>
+        <MethodName>MyMethod</MethodName>
+        <EllapsedTime>0</EllapsedTime>
+        <Methods>
+          <MethodDataView>
+            <ClassName>Bar</ClassName>
+            <MethodName>InnerMethod</MethodName>
+            <EllapsedTime>0</EllapsedTime>
+            <Methods />
+          </MethodDataView>
+        </Methods>
+      </MethodDataView>
+    </Methods>
+  </ThreadDataView>
+</ArrayOfThreadDataView>
